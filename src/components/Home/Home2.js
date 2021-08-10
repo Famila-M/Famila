@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-//   AiOutlineMail,
-//   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -75,16 +73,6 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-//               <li className="social-icons">
-//                 <a
-//                   href="familafami99@outlook.com"
-//                   target="_blank"
-//                   rel="noreferrer"
-//                   className="icon-colour  home-social-icons"
-//                 >
-//                   <AiOutlineMail />
-//                 </a>
-//               </li>
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/famila-m"
@@ -95,16 +83,6 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-//               <li className="social-icons">
-//                 <a
-//                   href="https://www.instagram.com/_bluekiddoo_/"
-//                   target="_blank"
-//                   rel="noreferrer"
-//                   className="icon-colour home-social-icons"
-//                 >
-//                   <AiFillInstagram />
-//                 </a>
-//               </li>
             </ul>
           </Col>
         </Row>
