@@ -5,7 +5,7 @@ import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://drive.google.com/file/d/1QRCL9lmtG1mehr41OWXmF8kpLtGGIo_b/view?usp=sharing";
+  const uri = "https://drive.google.com/drive/folders/1ppaZ4kXELnNVZ8Ma1rOlViI628SlNfD1?usp=sharing";
 
   return (
     <Container fluid className="resume-section">
@@ -63,12 +63,12 @@ function Resume() {
             <Resumecontent
               title="12TH BOARD [Nandha Matric Hr.Sec School,Erode]"
               date="2015 - 2017"
-              content={["Precentage: 66%"]}
+              content={["Precentage: 65%"]}
             />
             <Resumecontent
               title="10TH BOARD [AKR Academy CBSE School, Tirupur] "
               date="2013 - 2015"
-              content={[`CGPA: ${6.5} `]}
+              content={[`CGPA: ${6.6} `]}
             />
           </Col>
         </Row>
