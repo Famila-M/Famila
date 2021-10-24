@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { BiLinkExternal } from "react-icons/bi";
+import { FaGithub, FaEye } from "react-icons/fa";
 
 function ProjectCards(props) {
   return (
@@ -12,9 +12,14 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
+        <Button variant="primary" href={props.link1} target="_blank">
+         
+          {props.isBlog ? "View Blog" : <FaGithub/>}
+        </Button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <Button variant="primary" href={props.link2} target="_blank">
+          
+          {props.isBlog ? "View Blog" : <FaEye/>}
         </Button>
       </Card.Body>
     </Card>
