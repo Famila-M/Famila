@@ -23,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Zanzi}
+              imgPath={zanzi}
               isBlog={false}
               title="Zanzibar Store"
               description="This is FullStack Ecommerce Store using ReactJs, NodeJs, JavaScript, BootStrap, HTML5 & CSS3."
