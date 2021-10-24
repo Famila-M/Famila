@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import grocery from "../../Assets/Projects/Grocery.png";
 import colorpalatte from "../../Assets/Projects/colorpalatte.png";
-import cafeking from "../../Assets/Projects/Cafe-King.png";
+import zanzibarstore from "../../Assets/Projects/Zanzi.png";
 import githubclone from "../../Assets/Projects/Github.png";
 import cocktail from "../../Assets/Projects/Cocktail.png";
 
@@ -23,11 +23,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cafeking}
+              imgPath={Zanzi}
               isBlog={false}
-              title="Cafe-King"
-              description="We want to do a lot of stuff; we’re not in great shape. We didn’t get a good night’s sleep. We’re a little depressed. Coffee solves all these problems in one delightful little cup.Everyone should believe in something. I believe I will have another coffee."
-              link="https://github.com/Famila-M/Materialize-CSS"
+              title="Zanzibar Store"
+              description="This is FullStack Ecommerce Store using ReactJs, NodeJs, JavaScript, BootStrap, HTML5 & CSS3."
+              link1="https://github.com/Famila-M/Ecommerce-Store"
+              link2="https://zanzibar-store.netlify.app"
             />
           </Col>
 
@@ -36,8 +37,9 @@ function Projects() {
               imgPath={grocery}
               isBlog={false}
               title="Grocery Bud"
-              description="I love grocery shopping when I'm home. That's what makes me feel totally normal. I love both the idea of home as in being with my family and friends, and also the idea of exploration. I think those two are probably my great interests."
-              link="https://github.com/Famila-M/GroceryBud"
+              description="This is Grocery Shop which we can Add & Remove using ReactJs, JavaScript, BootStrap, HTML5 & CSS3."
+              link1="https://github.com/Famila-M/GroceryBud"
+              link2="https://grocerybud-01.netlify.app/"
             />
           </Col>
 
@@ -46,8 +48,9 @@ function Projects() {
               imgPath={colorpalatte}
               isBlog={false}
               title="Color Palatte"
-              description="Color Palatte is build with react.js. One of the most important steps of any graphic or web design project is to create an appropriate color palette to use across the entire design.They also include hex code you can copy to add proper color codes when designing websites as well. Best of all, they are completely free to use."
-              link="https://github.com/Famila-M/colorpalatte"
+              description="ColorPalatte is full of colors where we can search for RGB colors using ReactJs, JavaScript, BootStrap, HTML5 & CSS3."
+              link1="https://github.com/Famila-M/colorpalatte"
+              link2="https://colorpalatte.netlify.app/"
             />
           </Col>
 
@@ -56,8 +59,9 @@ function Projects() {
               imgPath={cocktail}
               isBlog={false}
               title="Cocktail"
-              description="Cocktail is build using react.js.An alcoholic drink consisting of a spirit or spirits mixed with other ingredients, such as fruit juice or cream.A cocktail can contain alcohol, a sugar, and a bitter/citrus.Cock-tail is a stimulating liquor, composed of spirits of any kind, sugar, water, and bitters—it is vulgarly called bittered sling."
-              link="https://github.com/Famila-M/Cocktail"
+              description="Cocktail is build using ReactJs, JavaScript, BootStrap, HTML5 & CSS3."
+              link1="https://github.com/Famila-M/Cocktail"
+              link2="https://cock-tail.netlify.app/"
             />
           </Col>
 
@@ -66,8 +70,9 @@ function Projects() {
               imgPath={githubclone}
               isBlog={false}
               title="Github_Clone"
-              description="Github Clone is build using JS. The description of a repo tells the public what is contained in the repo itself. If you have multiple repositories for the same project, it's better to describe what is contained in the repo itself instead of describing the project."
-              link="https://github.com/Famila-M/Hackathon-Github_Clone"
+              description="Github Clone is build using JavaScript, HTML5 & CSS3, BootStrap, API"
+              link1="https://github.com/Famila-M/Hackathon-Github_Clone"
+              link2="https://github-14.netlify.app/"
             />
           </Col>
 
