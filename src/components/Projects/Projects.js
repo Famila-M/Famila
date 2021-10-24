@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import grocery from "../../Assets/Projects/Grocery.png";
 import colorpalatte from "../../Assets/Projects/colorpalatte.png";
-import zanzibarstore from "../../Assets/Projects/Zanzi.png";
+import zanzibarstore from "../../Assets/Projects/zanzi.png";
 import githubclone from "../../Assets/Projects/Github.png";
 import cocktail from "../../Assets/Projects/Cocktail.png";
 
