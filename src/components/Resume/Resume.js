@@ -5,7 +5,7 @@ import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://drive.google.com/file/d/1_Dvyd41esq8aBFn9uG7t9ZhixOiuXBr3/view?usp=sharing";
+  const uri = "https://drive.google.com/file/d/1mNEPwbeB1bqi8wihcuCGHB_6UleFmvIU/view?usp=sharing";
 
   return (
     <Container fluid className="resume-section">
