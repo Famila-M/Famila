@@ -17,12 +17,15 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Hi there! I'm a skilled software developer specializing in MERN stack. 
+            With over 2 years of experience, I've crafted sleek web applications at Guvi Geeks and 
+            honed my project management skills at Accenture. Currently, I'm passionate about frontend 
+            development at Calmscious, where I blend creativity with technical expertise to deliver 
+            top-notch user experiences. Let's create something awesome together!
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Html5, CSS3 & Javascript. </b>
+                <b className="purple"> C++, Html5, CSS3 & Javascript, Bootstrap, ReactJS, NodeJS, Figma & Framer </b>
               </i>
               <br />
               <br />
