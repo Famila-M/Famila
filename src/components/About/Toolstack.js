@@ -2,6 +2,8 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
+  SiFigma,
+  SiFramer,
   SiAtom,
   SiGithub,
   SiPostman,
@@ -14,6 +16,12 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFigma />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFramer />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAtom />
