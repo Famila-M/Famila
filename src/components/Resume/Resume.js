@@ -5,7 +5,7 @@ import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://drive.google.com/file/d/1mNEPwbeB1bqi8wihcuCGHB_6UleFmvIU/view?usp=sharing";
+  const uri = "https://drive.google.com/file/d/1ejMho4l_tyk63o7mUf06xLSEmT9jge5O/view?usp=sharing";
 
   return (
     <Container fluid className="resume-section">
@@ -14,26 +14,28 @@ function Resume() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={uri} target="_blank">
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Accomplishment</h3>
+            <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Workshop"
+              title="Calmscious"
               content={[
-                "Actively Participated at Developer Fest SalemConnect’19 Organized by i18n Solutions.",
+                "At Calmscious, we thrive on innovation and collaboration to create exceptional digital solutions. As a Frontend Developer here, I've been part of a dynamic team committed to excellence in every project. Our culture fosters creativity, continuous learning, and a user-centric approach, ensuring our solutions are always cutting-edge and impactful. It's an environment where challenges fuel growth, and our collective passion drives us to exceed expectations every time.",
               ]}
             />
             <Resumecontent
+              title="Accenture"
               content={[
-                "Attended the National Level Workshop on “Machine Learning & Artificial Intelligence” in K.S.R College of Technology.",
+                "My time at Accenture was enriching, providing me with valuable insights into project control services and effective project management. I collaborated with diverse teams on innovative projects, gaining exposure to cutting-edge technologies. The culture fostered continuous learning and growth, equipping me with essential skills for success in the tech industry.",
               ]}
             /> 
             <Resumecontent
+              title="Guvi Geeks"
               content={[
-                "Attended the National Level Technical Workshop on “Applying Machine Learning To Real Time Problems” in Jai Shriram Engineering College.",
+                "My time at Guvi Geeks was transformative, where I delved into the MERN stack, gaining practical experience in MongoDB, Express.js, React, and Node.js. Collaborating on various projects, I honed my coding skills and embraced a culture of innovation and exploration. It was a foundational experience that ignited my passion for software development.",
               ]}  
             />
             <h3 className="resume-title">Certifications</h3>
@@ -74,7 +76,7 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={uri} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+          <AiOutlineDownload />&nbsp;Download Resume
           </Button>
         </Row>
       </Container>
