@@ -10,10 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hello!!, I am <span className="purple">Famila </span>
             from <span className="purple"> Chennai, India.</span>
-            <br />I'm a graduate of 2020 from Hindusthan College of Arts And Science 
-            at Coimbatore with a degree in Computer Science. I'm most passionate about 
-            giving back to the community, and my goal is to pursue this passion within 
-            the field of software Developer. In my free time I like working on open source projects.
+            <br />An enthusiastic individual with a passion for technology and 
+            innovation. With a background in Full-Stack Development, particularly in the MERN stack, 
+            I thrive in dynamic environments where I can leverage my skills to create impactful solutions.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
