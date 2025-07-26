@@ -23,6 +23,9 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFramer />
       </Col>
+   <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAtom />
       </Col>
