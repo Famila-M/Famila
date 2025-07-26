@@ -5,7 +5,7 @@ import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://drive.google.com/file/d/1ejMho4l_tyk63o7mUf06xLSEmT9jge5O/view?usp=sharing";
+  const uri = "https://drive.google.com/file/d/10umIWN7C_OXi1ravJaIGQLwgV43ruIBb/view?usp=sharing";
 
   return (
     <Container fluid className="resume-section">
@@ -20,6 +20,18 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+  <Resumecontent
+              title="Promantus Inc"
+              content={[
+                "Designed and developed responsive, feature-rich web applications using Angular and Java Spring Boot with RESTful API integration. 
+                Enhanced user experience through optimized UI performance, lazy loading, and reusable component design. Implemented dynamic features 
+                like advanced search filters, reactive forms, and client-side validations to improve interactivity and usability. Ensured secure and 
+                  seamless frontend-backend communication with robust CRUD operations, proper session handling, and custom error responses. Integrated 
+                    authentication mechanisms including SAML/SSO for secure access control. Collaborated in Agile teams, participated in code reviews, 
+                      and followed clean-code practices and version control (Git). Delivered modules with 40% performance improvement and reduced 
+                      user-reported issues by 15%.",
+              ]}
+            />
             <Resumecontent
               title="Calmscious"
               content={[
@@ -29,15 +41,13 @@ function Resume() {
             <Resumecontent
               title="Accenture"
               content={[
-                "My time at Accenture was enriching, providing me with valuable insights into project control services and effective project management. I collaborated with diverse teams on innovative projects, gaining exposure to cutting-edge technologies. The culture fostered continuous learning and growth, equipping me with essential skills for success in the tech industry.",
+                "Provided support in project management activities including documentation, task scheduling, and milestone tracking to ensure smooth 
+                execution and timely delivery. Maintained up-to-date project plans, status reports, and dashboards to support stakeholder communication 
+                and decision-making. Assisted in preparing project documentation such as meeting minutes, requirement specs, and risk logs. Contributed 
+                  to process standardization, knowledge base creation, and continuous improvement initiatives across teams. Ensured compliance with project 
+                    governance and facilitated coordination among cross-functional teams.",
               ]}
             /> 
-            <Resumecontent
-              title="Guvi Geeks"
-              content={[
-                "My time at Guvi Geeks was transformative, where I delved into the MERN stack, gaining practical experience in MongoDB, Express.js, React, and Node.js. Collaborating on various projects, I honed my coding skills and embraced a culture of innovation and exploration. It was a foundational experience that ignited my passion for software development.",
-              ]}  
-            />
             <h3 className="resume-title">Certifications</h3>
             <Resumecontent
               content={[
@@ -62,15 +72,10 @@ function Resume() {
               date="2017 - 2020"
               content={["Precentage: 80.11%"]}
             />
-            <Resumecontent
-              title="12TH BOARD [Nandha Matric Hr.Sec School,Erode]"
-              date="2015 - 2017"
-              content={["Precentage: 65%"]}
-            />
-            <Resumecontent
-              title="10TH BOARD [AKR Academy CBSE School, Tirupur] "
-              date="2013 - 2015"
-              content={[`CGPA: ${6.6} `]}
+                <Resumecontent
+              title="Master of Computer Applications [Bharathiar University,Coimbatore] "
+              date="2021 - 2023"
+              content={["Precentage: 79.12%"]}
             />
           </Col>
         </Row>
