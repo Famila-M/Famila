@@ -6,12 +6,12 @@ import {
   DiHtml5,
   DiCss3,
   DiJavascript1,
+  DiBootstrap,
   DiReact,
   DiAngularSimple,
   DiNodejs,
   DiMongodb,
-  DiGit,
-  DiBootstrap
+  DiGit
 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 
