@@ -11,6 +11,7 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiBootstrap
 } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 
