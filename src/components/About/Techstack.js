@@ -12,7 +12,6 @@ import {
   DiMongodb,
   DiGit,
 } from "react-icons/di";
-import { BiLogoTypescript } from "react-icons/bi";
 import { SiPwa } from "react-icons/si";
 
 function Techstack() {
@@ -25,7 +24,7 @@ function Techstack() {
         <DiReact />
       </Col>
   <Col xs={4} md={2} className="tech-icons">
-        <BiLogoTypescript />
+        <SiTypescript />
       </Col>
   <Col xs={4} md={2} className="tech-icons">
         <DiBootstrap />
