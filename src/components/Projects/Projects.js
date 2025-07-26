@@ -24,6 +24,20 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+             <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={drieddelights}
+              isBlog={false}
+              title="Dried Delights"
+              description="Dried Delights is a modern, visually appealing landing page built using Framer, designed to showcase premium dried fruits. 
+                The website features a clean and minimal layout, smooth transitions, and vibrant product imagery that captures attention. 
+                It’s fully responsive, ensuring a seamless experience across all devices. Ideal for branding, the site reflects elegance, simplicity, 
+                and product focus in every scroll."
+              link2="https://drieddelights.framer.website/"
+            />
+          </Col>
+            
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={zanzibarstore}
