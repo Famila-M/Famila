@@ -11,6 +11,7 @@ import colorpalatte from "../../Assets/Projects/colorpalatte.png";
 import zanzibarstore from "../../Assets/Projects/zanzi.png";
 import githubclone from "../../Assets/Projects/Github.png";
 import cocktail from "../../Assets/Projects/Cocktail.png";
+import drieddelights from "../../Assets/Projects/Dried Delights.png";
 
 function Projects() {
   return (
