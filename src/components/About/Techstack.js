@@ -7,22 +7,30 @@ import {
   DiCss3,
   DiJavascript1,
   DiReact,
+  DiAngularSimple,
   DiNodejs,
   DiMongodb,
   DiGit,
 } from "react-icons/di";
+import { BiLogoTypescript } from "react-icons/bi";
 
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+  <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+  <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+  <Col xs={4} md={2} className="tech-icons">
+        <BiLogoTypescript />
+      </Col>
+  <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col>
+  <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -32,10 +40,13 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <CgCPlusPlus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
