@@ -17,30 +17,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hi there! I'm a skilled software developer specializing in MERN stack. 
-            With over 2 years of experience, I've crafted sleek web applications at Guvi Geeks and 
-            honed my project management skills at Accenture. Currently, I'm passionate about frontend 
-            development at Calmscious, where I blend creativity with technical expertise to deliver 
-            top-notch user experiences. Let's create something awesome together!
+              Hi there! I'm a dedicated software developer with 2+ years of experience, currently working at 
+  <b className="purple"> Promantus Inc</b> as a Frontend Developer. I specialize in building responsive, 
+  scalable web applications using modern technologies. My journey includes valuable experience at 
+  <b className="purple"> Accenture</b>, where I honed my project coordination and documentation skills. 
+  I'm passionate about crafting intuitive user interfaces and delivering seamless digital experiences. Let's create something awesome together!
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in
               <i>
-                <b className="purple"> C++, Html5, CSS3 & Javascript, Bootstrap, ReactJS, NodeJS, Figma & Framer </b>
+                <b className="purple"> Html5, CSS3, Javascript, TypeScript, Angular, Bootstrap, ReactJS, NodeJS, Figma & Framer </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Web Technologies and Scalable Products</b> and
+    exploring emerging trends in{" "}
                 <b className="purple">
                   New Technologies.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+             Whenever possible, I love applying my skills to develop efficient solutions using 
+              with <b className="purple">Java Spring Boot</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -49,7 +49,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Angular </b>
               </i>
             </p>
           </Col>
