@@ -13,7 +13,7 @@ import {
   DiGit,
 } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
-
+import { SiPwa } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -40,7 +40,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiPwa />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
