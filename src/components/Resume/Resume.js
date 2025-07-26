@@ -23,13 +23,7 @@ function Resume() {
   <Resumecontent
               title="Promantus Inc"
               content={[
-                "Designed and developed responsive, feature-rich web applications using Angular and Java Spring Boot with RESTful API integration. 
-                Enhanced user experience through optimized UI performance, lazy loading, and reusable component design. Implemented dynamic features 
-                like advanced search filters, reactive forms, and client-side validations to improve interactivity and usability. Ensured secure and 
-                  seamless frontend-backend communication with robust CRUD operations, proper session handling, and custom error responses. Integrated 
-                    authentication mechanisms including SAML/SSO for secure access control. Collaborated in Agile teams, participated in code reviews, 
-                      and followed clean-code practices and version control (Git). Delivered modules with 40% performance improvement and reduced 
-                      user-reported issues by 15%.",
+                "Designed and developed responsive, feature-rich web applications using Angular and Java Spring Boot with RESTful API integration. Enhanced user experience through optimized UI performance, lazy loading, and reusable component design. Implemented dynamic features like advanced search filters, reactive forms, and client-side validations to improve interactivity and usability. Ensured secure and seamless frontend-backend communication with robust CRUD operations, proper session handling, and custom error responses. Integrated authentication mechanisms including SAML/SSO for secure access control. Collaborated in Agile teams, participated in code reviews, and followed clean-code practices and version control (Git). Delivered modules with 40% performance improvement and reduced user-reported issues by 15%.",
               ]}
             />
             <Resumecontent
@@ -41,11 +35,7 @@ function Resume() {
             <Resumecontent
               title="Accenture"
               content={[
-                "Provided support in project management activities including documentation, task scheduling, and milestone tracking to ensure smooth 
-                execution and timely delivery. Maintained up-to-date project plans, status reports, and dashboards to support stakeholder communication 
-                and decision-making. Assisted in preparing project documentation such as meeting minutes, requirement specs, and risk logs. Contributed 
-                  to process standardization, knowledge base creation, and continuous improvement initiatives across teams. Ensured compliance with project 
-                    governance and facilitated coordination among cross-functional teams.",
+                "Provided support in project management activities including documentation, task scheduling, and milestone tracking to ensure smooth execution and timely delivery. Maintained up-to-date project plans, status reports, and dashboards to support stakeholder communication and decision-making. Assisted in preparing project documentation such as meeting minutes, requirement specs, and risk logs. Contributed to process standardization, knowledge base creation, and continuous improvement initiatives across teams. Ensured compliance with project governance and facilitated coordination among cross-functional teams.",
               ]}
             /> 
             <h3 className="resume-title">Certifications</h3>
