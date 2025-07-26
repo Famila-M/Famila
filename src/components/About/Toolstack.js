@@ -8,7 +8,8 @@ import {
   SiGithub,
   SiPostman,
   SiHeroku,
-  SiNetlify
+  SiNetlify,
+  SiGitlab
 } from "react-icons/si";
 
 function Toolstack() {
